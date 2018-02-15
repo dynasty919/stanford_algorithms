@@ -2,7 +2,7 @@
 # @Time    : 2018/2/15 18:14
 # @Author  : dynasty919
 # @Email   : dynasty919@163.com
-# @File    : course2_pa2_dijkstra.py
+# @File    : course2_pa3_MedianMaintenance.py
 # @Software: PyCharm
 import sys
 import threading
