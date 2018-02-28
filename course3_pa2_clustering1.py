@@ -4,7 +4,6 @@
 # @Email   : dynasty919@163.com
 # @File    : clustering.py
 # @Software: PyCharm
-import functools
 
 def readfile():
     with open('clustering1.txt','rt') as f:
