@@ -12,9 +12,11 @@ def readfile():
         b = []
         for c in a[1:]:
             b.append(c.strip().split(' '))
+        f = sorted(b, key=lambda iter1: int(iter1[2]))
         d ={}
-        for e in b:
+        for e in f:
             d[(e[0], e[1])] = int(e[2])
+        print(d)
         return d
 
 def greedy(verteces, distances):
