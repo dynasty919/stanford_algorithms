@@ -16,15 +16,12 @@ def readfile():
         d ={}
         for e in f:
             d[(e[0], e[1])] = int(e[2])
-        print(d)
         return d
 
 def greedy(verteces, distances):
     for dist in distances:
         if verteces[dist[0]] != verteces[dist[1]]:
-            init = dist
-            break
-    return functools.reduce(lambda x, y: y if verteces[y[0]] != verteces[y[1]] and distances[y] < distances[x] else x, distances, init)
+            return dist
 
 def clustering(distances):
     verteces = {}
