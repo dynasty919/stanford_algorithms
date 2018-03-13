@@ -39,4 +39,5 @@ def main():
     print(tsp_big())
     print(time.time()-start)
 
-main()
+if __name__ == "__main__":
+    main()
